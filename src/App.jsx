@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./App.css";
+import logo from "./assets/logo.jpeg";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -31,7 +32,7 @@ function App() {
       <header className="navbar">
         <div className="container nav-container">
           <button className="brand" onClick={() => scrollTo("home")}>
-            <div className="brand-logo">S</div>
+            <img src={logo} alt="Suvidha IPR Services" className="brand-logo-image" />
 
             <div className="brand-text">
               <strong>SUVIDHA</strong>
@@ -706,7 +707,7 @@ function App() {
         <div className="container footer-grid">
           <div className="footer-company">
             <div className="footer-brand">
-              <div className="brand-logo">S</div>
+              <img src={logo} alt="Suvidha IPR Services" className="brand-logo-image" />
 
               <div className="brand-text">
                 <strong>SUVIDHA</strong>

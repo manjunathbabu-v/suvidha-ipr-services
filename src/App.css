@@ -145,6 +145,17 @@ textarea:focus-visible {
   box-shadow: 0 8px 18px rgba(29, 111, 232, 0.2);
 }
 
+.brand-logo-image {
+  width: 48px;
+  height: 48px;
+  max-width: 48px;
+  max-height: 48px;
+  object-fit: contain;
+  display: block;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
 .brand-text {
   text-align: left;
 }
@@ -1273,4 +1284,5 @@ textarea:focus-visible {
   .footer-grid {
     grid-template-columns: 1fr;
   }
+
 }
